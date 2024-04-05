@@ -2,7 +2,6 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
 import scheduler from "../../Assets/Projects/scheduler.jpeg";
 
 
@@ -30,17 +29,6 @@ function Projects() {
               description="Experience hassle-free healthcare with Swift Scheduler.Connect with licensed professionals through 24/7 appointment scheduling, and prescription management."
               ghLink="https://github.com/Pavani-28/swift_scheduler"
 
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={leaf}
-              isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-             
             />
           </Col>
         </Row>
