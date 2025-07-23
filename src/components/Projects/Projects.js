@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import scheduler from "../../Assets/Projects/scheduler.jpeg";
+import dashboardimg from "../../Assets/Projects/dashboardimg.jpg";
 
 
 
@@ -26,8 +27,23 @@ function Projects() {
               imgPath={scheduler}
               isBlog={false}
               title="Swift Scheduler"
-              description="Experience hassle-free healthcare with Swift Scheduler.Connect with licensed professionals through 24/7 appointment scheduling, and prescription management."
+              description="A full-stack healthcare platform enabling 24/7 appointment scheduling with licensed professionals.
+        Built secure user authentication and real-time booking using React and Node.js. Integrated MongoDB 
+        for prescription and patient profile management.      
+"
               ghLink="https://github.com/Pavani-28/swift_scheduler"
+
+            />
+          </Col>
+           <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={dashboardimg}
+              isBlog={false}
+              title="Admin Dashboard"
+              description="Developed a responsive dashboard using ReactJS and Material-UI (MUI) to visualize real-time analytics. 
+              Integrated charts, tables, and widgets to enhance data accessibility for non-technical users.
+Implemented efficient state management and API integration for dynamic data fetching and filtering."
+              ghLink="https://github.com/Pavani-28/Admin_Dashboard"
 
             />
           </Col>

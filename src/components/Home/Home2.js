@@ -14,39 +14,22 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              A quick <span className="purple"> INTRO </span> 
             </h1>
             <p className="home-about-body">
-              I have learnt all the basic data structures and I love solving problems using them!!
+              💻 Software Development Engineer with a passion for clean, impactful code<br/><br/>
+
+🔁 Experienced in full-stack development: .NET, C#, SQL, JavaScript<br/><br/>
+
+🚀 Building scalable, user-friendly solutions in agile teams<br/><br/>
+
+🌱 Lifelong learner who loves debugging and delivering value<br/><br/>
+
+🎯 On a mission to turn real-world challenges into elegant software<br/><br/>
+
+🧠 Love solving problems that need both logic and creativity<br/><br/>
+
               <br />
-              <br />I am fluent in 
-              <i>
-                <b className="purple"> Java, Javascript and MySQL. </b>
-              </i>
-              <br />
-              <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in projects related to{" "}
-                <b className="purple">
-                  MERN stack.
-                </b>
-              </i>
-              <br />
-              <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Express.js</b>
-              </i>
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -64,7 +47,7 @@ function Home2() {
             <ul className="home-about-social-links">
             <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/pavani-m-b105a5253/"
+                   href="https://www.linkedin.com/in/pavani-muthyam-b105a5253"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"

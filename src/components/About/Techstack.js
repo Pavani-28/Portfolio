@@ -6,10 +6,14 @@ import {
   DiReact,
   DiNodejs,
   DiMongodb,
-  DiPython,
   DiGit,
   DiJava,
 } from "react-icons/di";
+
+import {
+  SiCsharp,
+  SiDotnet,
+} from "react-icons/si";
 
 
 
@@ -32,7 +36,10 @@ function Techstack() {
         <DiGit />
       </Col>    
       <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
+        <SiDotnet />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiCsharp />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJava />
